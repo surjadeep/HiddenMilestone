@@ -9,8 +9,8 @@ export default class Home extends Component {
 			<Layout className="layout">
 	      <Content className="mainContent">
 		      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
-						<Button type="primary"><Link to="/travels" className="btn btn-lg btn-default">Travels Agency</Link></Button>
-						<Button><Link to="/events" className="btn btn-lg btn-default">Event Organizer</Link></Button>
+						<Link to="/travels" className="btn btn-lg btn-default">Travels Agency</Link>
+						<Link to="/events" className="btn btn-lg btn-default">Event Organizer</Link>
 					</div>
 		    </Content>
 	    </Layout>
