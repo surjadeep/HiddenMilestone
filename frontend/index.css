@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+.ant-layout{background-color: #fff}
+.ant-breadcrumb{position: fixed;
+    background: #fff;
+    top: 64px;
+    left: 285px;
+    width: 100%;
+    padding: 10px;}
+a{color:#ccc}
+a:active{color:#eee}
+a:hover{color:#eee}
+.mainContent{margin-left:275px; min-height:375px; margin-top:100px; padding:20px; font-size: 18px; font-family: 'Cuprum', sans-serif; color:#333}
