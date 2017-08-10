@@ -9,17 +9,15 @@ class TravelsAboutUs extends Component {
 		return (
 			<Content className="mainContent">
 				<div>
-					{this.props.aboutus}
+					<div dangerouslySetInnerHTML={{__html: this.props.data.aboutus}} />
 				</div>
 			</Content>
 		);
   }
 }
-
 function mapStateToProps(state) {
 	return {
-		aboutus: state.aboutus
+		data: state.aboutusData
 	}
 }
-
 export default connect(mapStateToProps)(TravelsAboutUs);
