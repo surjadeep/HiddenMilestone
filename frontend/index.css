@@ -9,4 +9,5 @@
 a{color:#ccc}
 a:active{color:#eee}
 a:hover{color:#eee}
-.mainContent{margin-left:275px; min-height:375px; margin-top:100px; padding:20px; font-size: 18px; font-family: 'Cuprum', sans-serif; color:#333}
+.mainContent{margin-left:275px; margin-top:100px; padding:20px; font-size: 16px; font-family: 'Cuprum', sans-serif; color:#333; height: calc(100vh - 166px); overflow-y: auto;}
+.SiteFooterCls{width: 100%; background-color:#000; color:#eee}
